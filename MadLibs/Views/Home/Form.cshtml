@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mad Libs</title>
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous">
+    <meta charset='utf-8'>
+  </head>
+  <body>
+    <h1>Fill the words required in the form to get your Mad Libs story!</h1>
+    <form action="/madlibs" method="post">
+     <label for="noun">Enter a noun:</label>
+     <input id="noun" name="noun" type="text">
+     <label for="adjective">Enter an adjective:</label>
+     <input id="adjective" name="adjective" type="text">
+     <label for="adverb">Enter an adverb:</label>
+     <input id="adverb" name="adverb" type="text">
+     <label for="name">Enter a name:</label>
+     <input id="name" name="name" type="text">
+     <label for="bird">Enter a type of bird:</label>
+     <input id="bird" name="bird" type="text">
+     <label for="liquid">Enter a liquid:</label>
+     <input id="liquid" name="liquid" type="text">
+     <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>
